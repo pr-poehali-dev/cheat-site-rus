@@ -61,7 +61,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Gaming colors
+				'neon-green': '#00FF41',
+				'neon-pink': '#FF0080',
+				'dark-bg': '#1A1A1A',
+				'dark-card': '#333333',
+				'dark-border': '#404040'
+			},
+			fontFamily: {
+				heading: ['Oswald', 'sans-serif'],
+				body: ['Roboto', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
